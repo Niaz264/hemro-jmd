@@ -31,7 +31,7 @@ if DATABASE_URL:
     if config_dict := db.settings.config.find_one({'_id': bot_id}):  #retrun config dict (all env vars)
         conn.close()
 
-UPSTREAM_REPO = 'https://github.com/5hojib/try'
+UPSTREAM_REPO = 'https://github.com/Niaz264/hemro-jmd'
 UPSTREAM_BRANCH = 'master'
 
 if UPSTREAM_REPO:
