@@ -31,8 +31,8 @@ if DATABASE_URL:
     if config_dict := db.settings.config.find_one({'_id': bot_id}):  #retrun config dict (all env vars)
         conn.close()
 
-UPSTREAM_REPO = 'https://github.com/Niaz264/jmdkh-mltb'
-UPSTREAM_BRANCH = 'master'
+UPSTREAM_REPO = 'https://github.com/Niaz264/zmroku'
+UPSTREAM_BRANCH = 'main'
 
 if UPSTREAM_REPO:
     if ospath.exists('.git'):
